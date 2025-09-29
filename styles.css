@@ -1,0 +1,20 @@
+body{
+    background-color: #fad8d8;
+    font-family: Arial;
+    margin: 20px;
+}
+h1{
+    color: rgb(147, 173, 108);
+    text-align: center;
+    font-size: 36px;
+}
+h2{
+    color: rgb(193, 196, 52);
+    border-bottom: 2px dashed #aaaaaa;
+}
+.destacado{
+    background-color: yellow;
+}
+#subrayado{
+    text-decoration: underline;
+}
