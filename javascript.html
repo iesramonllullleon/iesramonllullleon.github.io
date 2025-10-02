@@ -18,10 +18,18 @@
     <a href="capas.html">Capas</a>
     <p>Javascript és un llenguatge de programació per pàgina web</p>
     <p>Ens ajuda a que les nostres pàgines siguin interactives</p>
-    <script>
-        alert("soc un missatge d'alerta");
-    </script>
+    
     <p>Ara veureu que passa quan clicam aquest botó</p>
     <button onclick="alert('Hola, gràcies per clicar')">Clica'm</button>
+    <h2>Botó que mostra la data</h2>
+    <button onclick="document.getElementById('data').innerHTML = Date()">
+        Mostra la data i hora
+    </button>
+    <p id="data"></p>
+    <h2>Canviar una imatge</h2>
+    <p>Tria qui es mereixia el balon d'or</p>
+    <img width="200px"id="foto"src="dembele.jpg" alt="">
+    <button onclick="document.getElementById('foto').src ='lamine.jpg' ">Lamine</button>
+    <button onclick="document.getElementById('foto').src ='dembele.jpg'">Dembele</button>
 </body>
 </html>
